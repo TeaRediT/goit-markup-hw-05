@@ -426,6 +426,74 @@
           </ul>
         </div>
       </section>
+      <div class="modal-overlay is-open">
+        <div class="modal">
+          <button class="modal-x-btn" type="button">
+            <svg class="x-btn-icon" width="8" height="8">
+              <use href="./images/icons.svg#modal-x-btn-icon"></use>
+            </svg>
+          </button>
+          <p class="modal-form-title">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="modal-form">
+            <label class="modal-form-label"
+              >Name
+              <input
+                class="modal-form-input"
+                type="text"
+                name="name_value"
+                required
+                autofocus
+              />
+              <svg class="modal-form-icons" width="12" height="12">
+                <use href="./images/icons.svg#modal-form-name"></use>
+              </svg>
+            </label>
+            <label class="modal-form-label"
+              >Phone
+              <input class="modal-form-input" type="tel" name="tel_value" />
+              <svg class="modal-form-icons" width="13" height="13">
+                <use href="./images/icons.svg#modal-form-phone"></use>
+              </svg>
+            </label>
+            <label class="modal-form-label"
+              >Email
+              <input
+                class="modal-form-input"
+                type="email"
+                name="email_value"
+                required
+              />
+              <svg class="modal-form-icons" width="16" height="12">
+                <use href="./images/icons.svg#modal-form-email"></use>
+              </svg>
+            </label>
+            <label class="modal-form-label"
+              >Comment
+              <textarea
+                class="modal-form-textarea"
+                name="comment_value"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+            <div class="checkbox-n-conditions">
+              <label class="modal-form-label">
+                <input class="modal-form-checkbox" type="checkbox" />
+              </label>
+              <p class="modal-form-conditions">
+                I accept the terms and conditions of the
+                <span class="modal-form-conditions-span"
+                  ><a class="modal-form-conditions-link" href="#"
+                    >Privacy Policy</a
+                  ></span
+                >
+              </p>
+            </div>
+            <button class="btn modal-form-btn">Send</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer class="page-footer">
       <div class="container footer-items">
@@ -487,24 +555,26 @@
             </li>
           </ul>
         </div>
-        <form class="subscribe-form">
-          <label class="subscribe-label"
-            >Subscribe
-            <input
-              class="subscribe-input"
-              type="email"
-              name="email_subscribe"
-              placeholder="E-mail"
-              required
-            />
-          </label>
-          <button class="btn subscribe-btn">
-            Subscribe
-            <svg class="subscribe-icon" width="24" height="20">
-              <use href="./images/icons.svg#icon-subscribe"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="subscribe">
+          <p class="footer-subscribe">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="email_subscribe"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="btn subscribe-btn">
+              Subscribe
+              <svg class="subscribe-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>
