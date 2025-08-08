@@ -721,6 +721,10 @@ img {
 }
 
 .modal-form-label-conditions {
+  margin: 0;
+}
+
+.checkbox-n-conditions {
   margin-bottom: 24px;
 }
 
