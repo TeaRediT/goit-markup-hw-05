@@ -450,7 +450,113 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* form overlay */
+/* footer */
+
+.page-footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-slogan {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  width: 264px;
+}
+
+.logo-n-slogan {
+  margin-right: 120px;
+}
+
+.footer-items {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-socials {
+  margin-right: 80px;
+}
+
+.footer-socials-media,
+.footer-subscribe {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+
+  margin-bottom: 16px;
+}
+
+.footer-socials-list {
+  gap: 16px;
+}
+
+.footer-socials-item-circle:hover,
+.footer-socials-item-circle:focus {
+  background-color: #31d0aa;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-label {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.subscribe-input {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  background-color: inherit;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  display: block;
+  padding-left: 16px;
+}
+
+.subscribe-input::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.subscribe-btn {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 165px;
+  height: 40px;
+
+  text-align: start;
+  padding-left: 24px;
+}
+
+.subscribe-icon {
+  top: 8px;
+  right: 24px;
+  fill: #fff;
+  margin-left: 16px;
+}
+
+/* modal form */
 
 .modal-overlay {
   display: flex;
@@ -623,107 +729,4 @@ img {
   height: 56px;
 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-
-/* footer */
-
-.page-footer {
-  background-color: #2e2f42;
-  padding: 100px 0;
-}
-
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.footer-slogan {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  width: 264px;
-}
-
-.logo-n-slogan {
-  margin-right: 120px;
-}
-
-.footer-items {
-  display: flex;
-  align-items: baseline;
-}
-
-.footer-socials {
-  margin-right: 80px;
-}
-
-.footer-socials-media,
-.footer-subscribe {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-
-  margin-bottom: 16px;
-}
-
-.footer-socials-list {
-  gap: 16px;
-}
-
-.footer-socials-item-circle:hover,
-.footer-socials-item-circle:focus {
-  background-color: #31d0aa;
-}
-
-.subscribe-form {
-  display: flex;
-}
-
-.subscribe-label {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-}
-
-.subscribe-input {
-  background-color: inherit;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
-  display: block;
-  padding-left: 16px;
-}
-
-.subscribe-input::placeholder {
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  color: #fff;
-}
-
-.subscribe-btn {
-  min-width: 165px;
-  height: 40px;
-
-  text-align: start;
-  padding-left: 24px;
-
-  align-self: flex-end;
-  margin-left: 24px;
-
-  position: relative;
-}
-
-.subscribe-icon {
-  position: absolute;
-  top: 8px;
-  right: 24px;
-  fill: #fff;
 }
