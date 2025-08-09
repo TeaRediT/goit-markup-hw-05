@@ -530,6 +530,10 @@ img {
   padding-left: 16px;
 }
 
+.subscribe-input::placeholder {
+  color: inherit;
+}
+
 .subscribe-btn {
   display: inherit;
   justify-content: center;
