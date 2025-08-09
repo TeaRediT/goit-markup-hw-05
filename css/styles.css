@@ -704,7 +704,6 @@ img {
 }
 
 .modal-form-textarea {
-  margin-top: 4px;
   padding: 8px 16px;
   resize: none;
 
@@ -713,6 +712,9 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+}
+
+.modal-form-textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
 
